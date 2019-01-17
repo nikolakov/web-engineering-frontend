@@ -1,0 +1,41 @@
+.BG {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.App {
+    position: relative;
+    z-index: 2;
+    padding: 20px 15%;
+    box-sizing: border-box;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.SearchBoxContainer {
+    width: 70%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+.ErrMsg {
+    color: red;
+    font-weight: 500;
+}
+
+.ResultsBoxContainer {
+    margin-bottom: 30px;
+    width: 100%;
+}

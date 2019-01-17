@@ -1,0 +1,22 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: #f4f4f4;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 13px 22px;
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 14px;
+    min-width: 225px;
+    border: 2px solid;
+    border-color: #f4f4f4cc;
+    letter-spacing: 1px;
+    font-family: 'Fira sans';
+}
+
+

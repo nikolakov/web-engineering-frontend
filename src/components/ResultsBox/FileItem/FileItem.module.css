@@ -1,0 +1,27 @@
+.FileItem {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 175px;
+    height: 200px;
+}
+
+.IconContainer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.IconContainer img {
+    margin: auto;
+}
+
+.NameContainer {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

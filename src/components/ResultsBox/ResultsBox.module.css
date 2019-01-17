@@ -1,0 +1,35 @@
+.ResultsBox {
+    width: 100%;
+    /* min-width: 975px; */
+    box-sizing: border-box;
+    min-height: 230px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.EmptyResultBox {
+    width: 100%;
+    /* min-width: 975px; */
+    box-sizing: border-box;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    display: flex;
+}
+
+.SpinnerContainer {
+    margin: auto;
+}
+
+.EmptyMessageContainer {
+    margin: auto;
+}
+
+.ResultsBox a {
+    text-decoration: none;
+    color: #222;
+}
