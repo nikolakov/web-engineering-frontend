@@ -2,10 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Attention: 
 to run the app, first you need to have Node.js and npm (node package manager) installed.
-Then run npm install to download all dependencies.
-To run the app in development mode, run npm start.
+Then run npm install in the root directory of the project to download all dependencies.
+To run the app in development mode, run the command npm start in the root directory of the project.
 
-To be able to fetch files, you need to add a url pointing to the backend in axiosConfig.js.
+To be able to fetch files, you need to add the url of the backend server in axiosConfig.js.
 
 
 ## Available Scripts
